@@ -1,0 +1,189 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: rgb(49, 192, 120);
+  height: 5%;
+  padding: 0.4em;
+  color: white;
+  font-family: "Muli";
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+select{
+  font-size: 1em;
+  color: black;
+  height: 1.2em;
+  margin-top: 1.1em;
+
+}
+
+.search_icon{
+  height: 1em;
+}
+
+.RepositoryName{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.RepositoryURL{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.Search-Results{
+  display: flex;
+  flex-direction: row;   
+ font-size: 1.2em;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ 
+}
+
+.Top-Row{
+background-color: rgb(146, 224, 255);
+width: 100%;
+font-weight: bold;
+padding-right:10px;
+height: 2em;
+text-align: justify;
+color: white;
+}
+
+.readme_icon{
+  height: 1.275em;
+}
+.RepositoryURL, .RepositoryName, .ForkName, .OpenIssues{
+  padding-right: 10px;
+  height: 1.5em;
+
+}
+.Read-Me{
+  text-align: center;
+  padding-right: 10px;
+
+}
+.Fork-names{
+  padding-right: 10px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.Open-Issues{
+  padding-right: 10px;
+  text-align: center; 
+}
+
+.PageSearch{
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+.shape1 {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left:87%;
+  background-color: #ff6b81;
+  height: 400px;
+  width: 300px;
+  transform: rotate(165deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.6;
+}
+.shape2 {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left:86%;
+  background-color: #eccc68;
+  height: 400px;
+  width: 300px;
+  transform: rotate(15deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.7;
+}
+
+.shape3 {
+  position: fixed;
+  z-index: 1;
+  top: 70%;
+  left:80%;
+  background-color: #70a1ff;
+  height: 400px;
+  width: 300px;
+  transform: rotate(63deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.shape4 {
+  position: fixed;
+  z-index: 1;
+  top: 27%;
+  left:90%;
+  background-color:#ff4757;
+  height: 400px;
+  width: 300px;
+  transform: rotate(-30deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.8;
+}
+.shape5 {
+  position: fixed;
+  z-index: 1;
+  top: 75%;
+  left:55%;
+  background-color: #ff4757;
+  height: 400px;
+  width: 300px;
+  transform: rotate(-50deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.5;
+}
+.shape6 {
+  position: fixed;
+  z-index: 1;
+  top: 80%;
+  left:45%;
+  background-color: #ffa502;
+  height: 400px;
+  width: 300px;
+  transform: rotate(28deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.9;
+ 
+}
+.shape7 {
+  position: fixed;
+  z-index: 1;
+  top: 70%;
+  left:85%;
+  background-color: #1e90ff;
+  height: 400px;
+  width: 300px;
+  transform: rotate(-40deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  opacity: 0.3;
+}
